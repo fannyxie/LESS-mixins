@@ -1,6 +1,15 @@
 ## LESS mixins
 
-### Usage
+### 1.Usage
+
+you should include the file named `helper.less` into the development CSS files.
+
+than,take example of following codes to use them.
+
+
+```css
+@import "mixins/helper.less";
+```
 
 * `.clearfix()`
 * `.hidden()`
@@ -23,11 +32,11 @@
 * `flex()`
 * `order()`
 
-### Example
+### 2.Example
 
 #### .clearfix()
 
-example
+##### example
 
 ```less
 .wj{
@@ -35,7 +44,7 @@ example
 }
 ```
 
-output
+##### output
 
 ```css
 .wj:before,
@@ -50,7 +59,7 @@ output
 
 #### #gradient > .horizontal(#000,#fff)
 
-example
+##### example
 
 ```less
 .wj{
@@ -59,7 +68,7 @@ example
 
 ```
 
-output
+##### output
 
 ```css
 .wj{
@@ -93,7 +102,7 @@ background-color: #ffffff;
 
 #### .placeholder()
 
-example
+##### example
 
 ```less
 .wj{
@@ -101,7 +110,7 @@ example
 }
 ```
 
-output
+##### output
 
 ```css
 .wj :-moz-placeholder {
